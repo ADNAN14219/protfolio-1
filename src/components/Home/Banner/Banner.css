@@ -1,0 +1,44 @@
+.banner{
+    position: relative;
+    display: flex;
+    background: linear-gradient( rgba(0, 0, 0, 0.75), rgba(58, 56, 56, 0.911)), url('../../../images/banner.png') no-repeat center top;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+    color: #fff;
+    min-height: 500px;
+    font-family: Ubuntu, sans-serif;
+    overflow-x: hidden;
+}
+.banner-main{
+    display: flex;
+    position: absolute;
+    top: -40px;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.title{
+    color: white;
+    text-transform: uppercase;
+}
+.text{
+    color: var(--primary-orange);
+    font-size: 50px;
+}
+.typed-text{
+    font-size: 2rem;
+    color: rgb(193, 231, 24);
+}
+.btn{
+    border: 1px solid red;
+    text-transform: uppercase;
+    border-radius: 10px;
+    padding: 10px 12px;
+    color: white;
+    background-color: tomato;
+}
